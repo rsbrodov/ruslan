@@ -78,6 +78,13 @@ class SiteController extends Controller
         return $this->render('index');
     }
 
+    public function actionTest()
+    {
+
+        print_r('это тестовая ветка');
+        return $this->render('index');
+    }
+
     /**
      * Login action.
      *
