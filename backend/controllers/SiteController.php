@@ -62,6 +62,13 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
+        print_r('А это бой господа')
+        return $this->render('index');
+    }
+
+    public function actionIndexCopy()
+    {
+        print_r('А это бой господа')
         return $this->render('index');
     }
 
