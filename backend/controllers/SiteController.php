@@ -70,6 +70,7 @@ class SiteController extends Controller
 
     public function actionIndexCopy()
     {
+
         print_r('это локаль');
         print_r('А это бой господа');
         print_r('это как дважды два');
