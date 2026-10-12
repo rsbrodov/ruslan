@@ -70,7 +70,8 @@ class SiteController extends Controller
 
     public function actionIndexCopyCenter()
     {
-
+        print_r('Testing git fetch');
+        print_r('Testing git fetch');
         print_r('это локаль gtht[jlbv r ntcne');
         print_r('А это бой господа');
         print_r('это как дважды два');
